@@ -27,9 +27,9 @@ public class Generator {
 		String outputDir = System.getProperty("user.dir") + "/src/main/java";
 //		String outputDir = "C://Users/VULCAN/Desktop/new";
 		// 表名, 注意大小写
-		String[] tableNames = new String[]{"chapter"};
+		String[] tableNames = new String[]{"user"};
 		// 数据库地址
-		String url = "jdbc:mysql://localhost:3306/online_ybclass?useUnicode=true&characterEncoding=utf8";
+		String url = "jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf8";
 		// 用户名
 		String userName = "root";
 		// 密码
