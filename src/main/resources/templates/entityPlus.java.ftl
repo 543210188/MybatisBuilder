@@ -42,6 +42,8 @@ public class ${entity}  implements Serializable {
     @TableLogic
     </#if>
     <#if field.propertyType == "LocalDateTime">
+        @TableField("${field.name}")
+        @ApiModelProperty("${field.comment!}")
         private Date ${field.propertyName};
     </#if>
     <#if field.propertyType != "LocalDateTime">
